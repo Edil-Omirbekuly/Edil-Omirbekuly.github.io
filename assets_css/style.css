@@ -1,0 +1,154 @@
+body{
+  background-color: #3F92D2;
+}
+
+#,
+#:before,
+#:after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Main Part */
+
+.main_part {
+  position: absolute;
+  top: 90px;
+  left: 200px;
+  height: 100vh;
+}
+
+.main_text {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+
+.s_main_text {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.contact_us {
+  font-family: 'Lato', sans-serif;
+  padding: 10px 20px 10px 20px;
+  margin-top: 2px;
+  background-color: white;
+  border-color: white;
+  position: absolute;
+  left: 10px;
+  opacity: 0.8;
+}
+
+.contact_us:hover {
+  opacity: 1;
+}
+
+.contact_us_button {
+  text-decoration: none;
+  color: black;
+}
+
+.contact_us_button:hover {
+  opacity: 0.5;
+}
+
+/* Navigation */
+
+.navigation {
+  position: absolute;
+  left: 600px;
+  margin-top: 10px;
+}
+
+/*.nav_line {
+    border: none;
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    top: 24px;
+  }*/
+
+.navi_parametres {
+  font-family: 'Lato', sans-serif;
+  margin: 0px 20px 0px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.navi_parametres:hover {
+  color: white;
+  opacity: 0.7;
+}
+
+.navi_search {
+  padding: 5px 40px 5px 40px;
+}
+
+.navi_name {
+  position: absolute;
+  right: 990px;
+  top: -6px;
+  font-size: 20px;
+}
+
+.navi_icon {
+  position: absolute;
+  right: 1200px;
+  top: -6px;
+}
+
+#navi_icon_size {
+    width: 50px;
+    height: 50px;
+  }
+
+/* Info Part */
+
+.info_text {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  position: absolute;
+  color: black;
+  top: 650px;
+  word-wrap: break-word;
+}
+
+.info_text_1 {
+  display: inline;
+  margin: 100px;
+}
+
+.info_text_2 {
+  display: inline;
+  margin: 100px;
+}
+
+.info_text_3 {
+  display: inline;
+  margin: 100px;
+}
+
+#text_table_1 {
+  padding: 10px 20px 0px 20px;
+  display: inline-block;
+  background: white;
+  border: 2px solid white;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  left: 10px;
+}
+
+ .p_info {
+   text-align: left;
+ }
