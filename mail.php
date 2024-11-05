@@ -26,7 +26,7 @@ if (empty($name)) {
     $formcontent = "From: $name\nSubject: $subject\nEmail: $email\nMessage: $message";
 
     // Указываем адрес получателя
-    $recipient = "YOUR_EMAIL_ADDRESS"; // Замените на свой email
+    $recipient = "edilomirbekulyoffer@gmail.com"; // Замените на ваш email
 
     // Настроим PHPMailer
     $mail = new PHPMailer(true);
@@ -34,10 +34,10 @@ if (empty($name)) {
     try {
         // Настройки SMTP сервера
         $mail->isSMTP();
-        $mail->Host = 'edilomirbekulyoffer@gmail.com';  // Укажите свой SMTP сервер
+        $mail->Host = 'smtp.gmail.com';  // Укажите свой SMTP сервер
         $mail->SMTPAuth = true;
-        $mail->Username = 'edilomirbekulyoffer@gmail.com'; // Замените на свой email
-        $mail->Password = 'Ediloffer2004!'; // Замените на свой пароль
+        $mail->Username = 'edilomirbekulyoffer@gmail.com'; // Замените на ваш email
+        $mail->Password = 'Ediloffer2004!'; // Замените на ваш пароль или пароль приложения
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
