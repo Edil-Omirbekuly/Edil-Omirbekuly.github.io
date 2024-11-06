@@ -1460,3 +1460,7 @@ a {
 	background-color: #505F9F; /* Цвет фона при наведении (на один тон светлее) */
 }
 
+ion-icon {
+	font-size: 50px;
+	color:#303F9F;
+  }
