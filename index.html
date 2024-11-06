@@ -241,9 +241,7 @@
 								<div class='col-md-4' >
 									<div class='service' >
 										
-										<div class='icon' >
-											<i class='icon-basic-photo' ></i>
-										</div>
+										<ion-icon name="stats-chart-outline"></ion-icon>
 										
 										<div class='content' >
 											
@@ -259,9 +257,7 @@
 								<div class='col-md-4' >
 									<div class='service' >
 										
-										<div class='icon' >
-											<i class='icon-basic-keyboard' ></i>
-										</div>
+										<ion-icon name="apps-outline"></ion-icon>
 										
 										<div class='content' >
 											
@@ -277,13 +273,11 @@
 								<div class='col-md-4' >
 									<div class='service' >
 										
-										<div class='icon' >
-											<i class='ion-social-wordpress-outline' ></i>
-										</div>
+										<ion-icon name="code-slash-outline"></ion-icon>
 										
 										<div class='content' >
 											
-											<h4>Product Manager</h4>
+											<h4>Программирование</h4>
 											
 											
 											
@@ -1166,19 +1160,127 @@
 					</div>
 					
 				</section>
-				
-				
-				<!--=====================================================
+					
+					<!--=====================================================
 					Contact Section
 				=====================================================-->
 				<section id='contact' class='section contact-section border-d' >
 					
-					<form action="email.php" method="POST">
-						<input type="text" required="" name="name" placeholder="NAME">
-						<input type="email" required="" name="email" placeholder="Email adress">
-						<input type="text" required="" name="message" placeholder="message">
-						<button type="submit">Send</button>
-					</form>
+					<div class='section-block contact-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								<h2>Связаться <strong class='color' >Со мной</strong></h2>
+							</div>
+
+							<div class='row' >
+							
+								<div class='col-md-8' >
+									
+									<div class='contact-form' >
+									
+										<form id='contact-form' data-toggle='validator' method='post' action='mail.php' >
+										
+											<div id='contact-form-result' ></div>
+										
+											<div class='row' >
+												
+												<div class='col-md-6' >
+													<div class='form-group' >
+														
+														<input type='text' class='form-control' placeholder='Name' name='name' required>
+														<div class='help-block with-errors' ></div>
+														
+													</div>												
+												</div>
+												
+												<div class='col-md-6' >
+													<div class='form-group' >
+														
+														<input type='email' class='form-control' placeholder='Email' name='email' required>
+														<div class='help-block with-errors' ></div>
+													
+													</div>
+												</div>
+												
+											</div>
+											
+											<div class='form-group' >
+												
+												<input type='text' class='form-control' placeholder='Subject' name='subject' required>
+												<div class='help-block with-errors' ></div>
+											
+											</div>
+											
+											<div class='form-group' >
+												
+												<textarea class='form-control' placeholder='Message' name='message' rows='5' required></textarea>
+												<div class='help-block with-errors' ></div>
+												
+											</div>
+											
+											<div class='form-group text-center' >
+												<button type='submit' class='btn-custom btn-color' >
+													Send Message
+												</button>
+											</div>
+											
+										</form>
+										
+									</div>
+									
+									
+								</div>
+								
+								<div class='col-md-4' >
+									
+									<div class='contact-info-icons' >
+										
+										<div class='contact-info' >
+											
+											<i class='ion-ios-location-outline' ></i>
+											
+											<p>
+												Казахстан<br>
+												Астана	
+											</p>
+											
+										</div>
+										
+										
+										<div class='contact-info' >
+											
+											<i class='ion-ios-telephone-outline' ></i>
+											
+											<p>
+												+7 778 060 1004<br>
+												edilomirbekulyoffer@gmail.com
+											</p>
+											
+										</div>
+										
+										
+										<div class='contact-info' >
+											
+											<i class='ion-android-globe' ></i>
+											
+											<p>
+												<a href="https://wa.me/77780601004">WhatsApp</a><br>
+												<a href="https://t.me/mensolayaittym">Telegram</a>
+											</p>
+											
+										</div>
+
+									</div>
+
+								</div>
+	
+							</div>
+
+						</div>
+					
+					</div>
 					
 				</section>
 				
@@ -1196,6 +1298,7 @@
 		<script src='js/jquery.magnific-popup.min.js' ></script>
 		<script src='js/validator.min.js' ></script>
 		<script src='js/script.js' ></script>
-		
+		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 	</body>
 </html>
